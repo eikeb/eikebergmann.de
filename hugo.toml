@@ -1,0 +1,87 @@
+baseURL = "https://eikebergmann.de/"
+languageCode = "de"
+DefaultContentLanguage = "de"
+title = "Eike Bergmann - Solution Architect, Software Developer, all-around coder"
+theme = "adritian"
+
+# Languages
+#   de
+#     weight: 1
+#   en
+#     weight: 2
+
+[build]
+  writeStats = true
+  
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "css/main.css"
+  [[params.plugins.css]]
+  link = "css/rad-icons.css"
+  [[params.plugins.css]]
+  link = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+ 
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "index.html#experience"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+  [[menu.footer]]
+  name = "💁‍♂️ About"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "📚 Books"
+  URL = "/books"
+  weight = 3
+
+  [[menu.footer]]
+  name = "🎤 Public Speaking"
+  URL = "/public-speaking"
+  weight = 4
+
+  [[menu.footer]]
+  name = "📨 Contact"
+  URL = "index.html#contact"
+  weight = 5
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "contact"]
+  googleTagManagerID = "GTM-NVN2BJG" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Eike"
+    text2 = "Bergmann"
+
+  [params.footer]
+      copyright = "© Eike Bergmann. <a href=\"https://github.com/zetxek/adrianmoreno.info\">Code available in GitHub</a>."
+
+[taxonomies]
+  book_author = "book_authors"
+  book_category = "book_categories"
