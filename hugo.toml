@@ -23,8 +23,6 @@ theme = "raditian"
   link = "css/rad-icons.css"
   [[params.plugins.css]]
   link = "css/custom.css"
-  [[params.plugins.css]]
-  link = "css/custom_styles.css"
 
   # JS Plugins
   [[params.plugins.js]]
