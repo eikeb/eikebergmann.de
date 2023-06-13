@@ -1,6 +1,6 @@
 head:
-  title: "Eike Bergmann - Solution Architect, Software Developer, all-around coder"
-  description: "Personal site for Adrián Moreno Peña, Director of Engineering at SumUp. With a background as computer engineer and experience both as a web and mobile developer and team lead, in multi-cultural environments in Spain, the Netherlands and Denmark. You can find contact information, as well as availability for work, up-to-date curriculum and previous experience."
+  title: "Eike Bergmann | Solution Architect, Software Developer, all-around coder"
+  description: "Persönliche Website für Eike Bergmann, CTO bei ososoft. Mit einer beruflichen Erfahrung als Softwareingenieur sowie als SAP-Entwickler, Teamleiter und Coach. Hier finden Sie Kontaktinformationen sowie einen aktuellen Lebenslauf und frühere Erfahrungen."
 
 #################
 # Showcase box
@@ -11,16 +11,16 @@ showcase:
   subtitle: "Solution Architect"
   description: "Ich arbeite bei <a target='_blank' href='https://www.ososoft.de/'>ososoft</a>, einem SAP-Beratungsunternehmen in München. Mein Werdegang ist vielseitig (man könnte sagen, ich bin ein spezialisierter Generalist), aber stets im engen Zusammenhang mit digitalen Technologien. Ich habe in verschiedenen Bereichen gearbeitet, von Lösungsarchitektur bis hin zur Entwicklung von Backend-/Frontendlösungen, Teamleitung und Coaching. Die Faszination für SAP-Technologien treibt mich genauso an wie die Zusammenarbeit in agilen Teams, die sich gemeinsam darauf konzentrieren, herausragende Lösungen zu entwickeln."
   image:
-    alt: "Profile picture of Adrián Moreno Peña (@zetxek), smiling over a petroleum color background"
-    x: "images/adrian.jpg"
-    _2x: "images/adrian@2x.jpg"
+    alt: "Profile picture of Eike Bergmann, smiling over a grey color background"
+    x: "images/profile_eike_bergmann.jpg"
+    _2x: "images/profile_eike_bergmann@2x.jpg"
   imageMobile:
-    alt: "Profile picture of Adrián Moreno Peña (@zetxek), smiling over a petroleum color background"
-    x: "images/adrian.jpg"
+    alt: "Profile picture of Eike Bergmann, smiling over a grey color background"
+    x: "images/profile_eike_bergmann.jpg"
 
   button:
     icon: "icon-mail-fill"
-    btnText: "Contact"
+    btnText: "Kontakt"
     URL: "#contact"
 
   socialLinks:
@@ -36,24 +36,24 @@ showcase:
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "Wer bin ich?"
   content: '<p class="lead">
-    I’m a very easy going, sociable, fast-learner, curious and natural leader. I do what I love, and I love what I do. I lead by example and work side by side with my teams.
+      Ich bin ein sehr unkomplizierter, geselliger, neugieriger und schnell lernender Mensch. Ich tue, was ich liebe, und ich liebe, was ich tue. Ich gehe mit gutem Beispiel voran und arbeite Seite an Seite mit meinen Teams.
     </p>
     <p class="lead">
-    My profile is a hybrid of technical and managerial experience, but always related to technological projects. I bring business and product vision to tech teams, partly thanks to having started an developed a company. I am a fast learner, curious to see how technology can improve the users experience in multiple areas. I have a strong motivation and sense of responsibility with myself, my team and clients (or peers), and people like my positive and easy going, can-do attitude.
+      Mein Profil vereint technische Expertise und Managementerfahrung, wobei ich mich stets auf technische Projekte konzentriere. Ich bringe Geschäfts- und Produktvisionen in Entwicklerteams ein und arbeite gemeinsam mit ihnen an deren erfolgreicher Umsetzung. Ich bin hochmotiviert und habe ein hohes Verantwortungsbewusstsein für mich selbst, mein Team und meine Kunden (oder Kollegen). Meine positive und unkomplizierte Einstellung wird von den Menschen geschätzt.
     </p>
     <p class="lead">    
-    On the technical side, I’m a <em>specialized generalist</em>, always working between different areas, such as mobile and web development, devops, team leading... This has involved a variety of languages and frameworks in the web-side, both in the backend and in the client side.
+      Auf der technischen Seite bin ich ein spezialisierter Generalist, der bereits in verschiedenen Bereichen tätig war. Aktuell interessiere ich mich besonders für alles, was im Zusammenhang mit der SAP Business Technology Platform steht.
     </p>'
 
   button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/eike-bergmann-93b0891a3/"
   image:
-    x: "images/working-left.jpg"
-    _2x: "images/working-left@2x.jpg"
+    x: "images/stock_office2.jpg"
+    _2x: "images/stock_office2@2x.jpg"
 
 # education
 education:
@@ -62,7 +62,7 @@ education:
   items:
     - university: "Technische Universität, München"
       year: "2007-2011"
-      degree: "Bachelor Informatik"
+      degree: "Informatikstudium"
 
     - university: "Burggymnasium, Bad Bentheim"
       year: "2000-2007"
@@ -185,25 +185,25 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact"
+  title: "Kontakt"
   form:
-    action: "https://formspree.io/info@adrianmoreno.info"
+    action: "https://formspree.io/f/mzbqllqj"
     method: "POST"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
+    full_name: "Name"
+    email: "E-Mail Adresse"
+    message: "Geben Sie hier Ihre Nachricht ein"
   phone:
-    title: "Phone Number"
-    number: "+45 31 57 98 27"
+    title: "Telefon"
+    number: "+49 176 831 999 59"
   email:
     title: "Email"
-    email: '<a href="mailto:info@adrianmoreno.info">info@adrianmoreno.info</a>'
+    email: '<a href="mailto:info@eikebergmann.de">info@eikebergmann.de</a>'
   address:
-    title: "Location"
-    address: "Copenhagen (DK)"
+    title: "Standort"
+    address: "München (DE)"
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Nachricht senden"
 
 # newsletter
 newsletter:

@@ -23,6 +23,8 @@ theme = "adritian"
   link = "css/rad-icons.css"
   [[params.plugins.css]]
   link = "css/custom.css"
+  [[params.plugins.css]]
+  link = "css/custom_styles.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -35,37 +37,37 @@ theme = "adritian"
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "Über mich"
   URL = "index.html#about"
   weight = 2
 
   [[menu.header]]
-  name = "Experience"
+  name = "Erfahrung"
   URL = "index.html#experience"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
+  name = "Kontakt"
   URL = "#contact"
   weight = 4
 
   [[menu.footer]]
-  name = "💁‍♂️ About"
+  name = "Über mich"
   URL = "index.html#about"
   weight = 2
 
   [[menu.footer]]
-  name = "📚 Books"
+  name = "BÜcher"
   URL = "/books"
   weight = 3
 
   [[menu.footer]]
-  name = "🎤 Public Speaking"
+  name = "Public Speaking"
   URL = "/public-speaking"
   weight = 4
 
   [[menu.footer]]
-  name = "📨 Contact"
+  name = "Kontakt"
   URL = "index.html#contact"
   weight = 5
 
@@ -80,7 +82,7 @@ theme = "adritian"
     text2 = "Bergmann"
 
   [params.footer]
-      copyright = "© Eike Bergmann. <a href=\"https://github.com/zetxek/adrianmoreno.info\">Code available in GitHub</a>."
+      copyright = "© Eike Bergmann. <a href=\"https://github.com/eikeb/eikebergmann.de\">Code available in GitHub</a>."
 
 [taxonomies]
   book_author = "book_authors"
