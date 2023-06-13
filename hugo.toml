@@ -2,7 +2,7 @@ baseURL = "https://eikebergmann.de/"
 languageCode = "de"
 DefaultContentLanguage = "de"
 title = "Eike Bergmann - Solution Architect, Software Developer, all-around coder"
-theme = "adritian"
+theme = "raditian"
 
 # Languages
 #   de
@@ -75,7 +75,7 @@ theme = "adritian"
 [params]
 
   sections = ["showcase", "about", "education", "experience", "contact"]
-  googleTagManagerID = "GTM-NVN2BJG" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "GTM-PMWF2QQ" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Eike"
