@@ -6,7 +6,7 @@
 -- Update images
 -- Test critical-css script
 -- Change Google Tag Manager ID
--- Update static content
+-- Update Static Content
 - Research
 -- What are Archetypes?
 -- What is layouts for?

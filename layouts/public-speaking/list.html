@@ -2,22 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
+    {{ partial "head.html" . }}
+    {{ partial "head_custom.html" . }}
   </head>
 
   <body>
-    {{ partial "header.html" . }} {{ partial "breadcrumb.html" . }}
+    {{ partial "header.html" . }}
+    {{ partial "breadcrumb.html" . }}
 
     <section
       id="public-speaking"
-      class="content-list section section--border-bottom rad-animation-group"
-    >
+      class="content-list section section--border-bottom rad-animation-group">
 
       <div class="container">
         <p class="lead">
           Gelegentlich halte ich Präsentationen, Vorträge oder beteilige mich an Events zu den Themen, die mich interessieren.
-          <br/>
-          Dies ist eine Auswahl einiger öffentlicher Reden oder Auftritte, die ich im Laufe der Zeit absolviert habe.
         </p>
 
         <div class="row">
@@ -26,12 +25,12 @@
               {{ .Render "summary"}} 
             {{ end }}
           </ul>
-      </div>
-  
         </div>
+      </div>
     </section>
 
-    {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
+    {{ partial "footer.html" . }}
+    {{ partial "base-foot.html" . }}
   </body>
 </html>
 <!-- endinject -->

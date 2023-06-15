@@ -1,7 +1,7 @@
 baseURL = "https://eikebergmann.de/"
 languageCode = "de"
 DefaultContentLanguage = "de"
-title = "Eike Bergmann - Solution Architect, Software Developer, all-around coder"
+title = "Eike Bergmann | Solution Architect, Software Engineer, all-around coder"
 theme = "raditian"
 
 # Languages
@@ -13,7 +13,7 @@ theme = "raditian"
 [build]
   writeStats = true
   
-# Plugins
+# Additional CSS and JS
 [params.plugins]
 
   # CSS Plugins
@@ -31,7 +31,7 @@ theme = "raditian"
   URL = "js/sticky-header.js"
  
 
-# navigation
+# Main navigation menu
 [menu]
 
   [[menu.header]]
@@ -70,8 +70,8 @@ theme = "raditian"
   weight = 5
 
 
+# Misc settings
 [params]
-
   sections = ["showcase", "about", "education", "experience", "contact"]
   googleTagManagerID = "GTM-PMWF2QQ" # Google Analytics works with Google Tag Manager
 
