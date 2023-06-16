@@ -1,10 +1,8 @@
 head:
   title: "Eike Bergmann | Solution Architect, Software Engineer, all-around coder"
-  description: "Persönliche Website für Eike Bergmann, CTO bei ososoft. Mit einer beruflichen Erfahrung als Softwareingenieur sowie als SAP-Entwickler, Teamleiter und Coach. Hier finden Sie Kontaktinformationen sowie einen aktuellen Lebenslauf und frühere Erfahrungen."
+  description: "Persönliche Website für Eike Bergmann, CTO bei ososoft. Mit einer beruflichen Erfahrung als Software Engineer sowie als SAP-Entwickler, Teamleiter und Coach. Hier finden Sie Kontaktinformationen sowie einen aktuellen Lebenslauf und frühere Erfahrungen."
 
-#################
-# Showcase box
-#################
+# Top showcase section
 showcase:
   enable: true
   title: "Hallo, ich bin Eike."
@@ -33,7 +31,7 @@ showcase:
     - icon: "codepen"
       URL: "https://eikeb.github.io/"
 
-# about
+# About me section
 about:
   enable: true
   title: "Wer bin ich?"
@@ -41,10 +39,10 @@ about:
       Ich bin ein sehr unkomplizierter, geselliger, neugieriger und schnell lernender Mensch. Ich tue, was ich liebe, und ich liebe, was ich tue. Ich gehe mit gutem Beispiel voran und arbeite Seite an Seite mit meinen Teams.
     </p>
     <p class="lead">
-      Mein Profil vereint technische Expertise und Managementerfahrung, wobei ich mich stets auf technische Projekte konzentriere. Ich bringe Geschäfts- und Produktvisionen in Entwicklerteams ein und arbeite gemeinsam mit ihnen an deren erfolgreicher Umsetzung. Ich bin hochmotiviert und habe ein hohes Verantwortungsbewusstsein für mich selbst, mein Team und meine Kunden (oder Kollegen). Meine positive und unkomplizierte Einstellung wird von den Menschen geschätzt.
+      Mein Profil vereint technische Expertise und Managementerfahrung, wobei ich mich stets auf technische Projekte konzentriere. Ich bin hochmotiviert und habe ein hohes Verantwortungsbewusstsein für mich selbst, mein Team, meine Kunden und Kollegen. Meine positive und unkomplizierte Einstellung wird von den Menschen geschätzt.
     </p>
     <p class="lead">    
-      Auf der technischen Seite bin ich ein spezialisierter Generalist, der bereits in verschiedenen Bereichen tätig war. Aktuell interessiere ich mich besonders für alles, was im Zusammenhang mit der SAP Business Technology Platform steht.
+      Auf der technischen Seite bin ich ein spezialisierter Generalist, der bereits in verschiedenen Bereichen tätig war. Aktuell interessiere ich mich besonders für alles, was im Zusammenhang mit der SAP Business Technology Platform (BTP) steht.
     </p>'
 
   button:
@@ -52,10 +50,11 @@ about:
     btnText: "LinkedIn"
     URL: "https://www.linkedin.com/in/eike-bergmann-93b0891a3/"
   image:
+    alt: "Image of a table, with people sitting together"
     x: "images/stock_office2.jpg"
     _2x: "images/stock_office2@2x.jpg"
 
-# education
+# Education section
 education:
   enable: true
   title: "Ausbildung"
@@ -68,7 +67,7 @@ education:
       year: "2000-2007"
       degree: "Abitur"
 
-# Experience
+# Experience section
 experience:
   enable: true
   title: "Erfahrung"
@@ -76,113 +75,21 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    URL: "https://www.linkedin.com/in/eike-bergmann-93b0891a3/"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download résumé"
+  #   URL: "/files/cv_adrian_moreno_english.pdf"
   button2:
-    icon: "icon-profile-fill"
-    btnText: "Download résumé"
-    URL: "/files/cv_adrian_moreno_english.pdf"
+    icon: "icon-github-line"
+    btnText: "GitHub"
+    URL: "https://github.com/eikeb"
   button3: 
     icon: "icon-arrow-right"
     btnText: "All experience"
     URL: "/experience"
 
-# Client & Work
-client_and_work:
-  title: "Clients & Works"
-  enable: false
-
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
-  works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
-
-# testimonial
-testimonial:
-  enable: false
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
-
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
-# contact
+# Contact section
 contact:
   enable: true
   title: "Kontakt"
@@ -204,11 +111,3 @@ contact:
   button:
     icon: "icon-mail-fill"
     btnText: "Nachricht senden"
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."

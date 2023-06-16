@@ -10,7 +10,7 @@ duration: "2015-heute"
 ---
 ### Wachstum
 
-Dank des Wachstums bei ososoft bot sich mir die Gelegenheit, mehr Verantwortung zu übernehmen. Mit meiner Beförderung zum CTO übernahm ich die Verantwortung für die Softwareentwicklung.. Neben dem Aufbau und der Leitung unserer Entwicklerteams liegt mein Fokus auch auf dem Ausbau unseres Technologieportfolios.
+Dank des Wachstums bei ososoft bot sich mir die Gelegenheit, mehr Verantwortung zu übernehmen. Mit meiner Beförderung zum CTO übernahm ich die Verantwortung für die Softwareentwicklung. Neben dem Aufbau und der Leitung unserer Entwicklerteams liegt mein Fokus auch auf dem Ausbau unseres Technologieportfolios.
 
 Spannende Technologien wie SAP Fiori und die SAP Business Technology Platform werden von uns zunehmend in Projekten eingesetzt und gehören zu unserem stetig wachsenden Repertoire.
 

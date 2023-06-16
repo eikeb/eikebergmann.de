@@ -1,7 +1,7 @@
 ---
 title: "Thinking Fast and Slow"
 book_authors: ["Daniel Kahneman"]
-book_categories: ["Psychology (cognitive, evolutionary, phylosophy...)"]
+book_categories: ["Psychology"]
 link: "https://www.goodreads.com/search?q=Thinking+Fast+and+Slow+Daniel+Kahneman"
 featured: true
 ---
