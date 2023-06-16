@@ -12,3 +12,4 @@
 -- What is layouts for?
 - Update README.MD
 - Update Books
+- Add GA consent banner: https://hugocodex.org/add-ons/cookie-consent/
