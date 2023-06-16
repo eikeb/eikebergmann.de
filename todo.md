@@ -10,3 +10,5 @@
 - Research
 -- What are Archetypes?
 -- What is layouts for?
+- Update README.MD
+- Update Books
