@@ -73,7 +73,7 @@ theme = "raditian"
 # Misc settings
 [params]
   sections = ["showcase", "about", "education", "experience", "contact"]
-  googleTagManagerID = "GTM-PMWF2QQ" # Google Analytics works with Google Tag Manager
+  # googleTagManagerID = "GTM-PMWF2QQ" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Eike"
