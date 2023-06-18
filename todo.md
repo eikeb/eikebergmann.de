@@ -5,7 +5,6 @@
 - Assets
 -- Update images
 -- Test critical-css script
--- Change Google Tag Manager ID
 -- Update Static Content
 - Research
 -- What are Archetypes?
