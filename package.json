@@ -1,7 +1,7 @@
 {
   "name": "eikebergmann.de",
   "version": "1.0.0",
-  "description": "My personal homepage",
+  "description": "My personal website",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel hugo open",
